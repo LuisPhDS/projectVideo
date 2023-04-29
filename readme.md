@@ -1,2 +1,2 @@
 # Contexto:
-    -Projeto de Manipulação de video.
+    - Projeto de Manipulação de video.
