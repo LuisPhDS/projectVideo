@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: whitesmoke;
+}
+.central{
+    height: 100vh;
+    width: 100%;
+}
+.central #videoBg{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: -1; /*video vai para atrás de tudo*/
+    object-fit: cover; /*Ocupar a tela toda*/
+}
+.central #btn{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    border: none;/*borda externa*/
+    outline: none;/*borda interna*/
+    padding: 13px 21px;
+    border-radius: 13px;
+    background: #8C4422;
+    color: whitesmoke;
+    transform: translate(-35%);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.central .conteudo{
+    position: absolute;
+    top: 40%;
+    left: 25%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 10px;
+    transform: translate(-15%);
+    border-radius: 13px;
+}
