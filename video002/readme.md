@@ -1,10 +1,9 @@
 # Contexto:
-------------
-- Projeto de Manipulação de vídeo.  
-    -Oferecer as opções da manipulação do vídeo atual:  
-        -Play  
-        -Pause  
-        -Stop  
-        --Video Speed
-            -backward  
-            -forward
+------------  
+-Oferecer as opções da manipulação do vídeo atual:  
+    -Play  
+    -Pause  
+    -Stop  
+    -Video Speed  
+        -backward  
+        -forward
